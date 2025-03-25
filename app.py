@@ -3,8 +3,8 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
-def merhaba():
-    return "Merhaba CI/CD!"
+def Hi():
+    return "Hi CI/CD!"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
